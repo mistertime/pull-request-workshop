@@ -5,14 +5,14 @@ describe RogueMath do
     let(:a) { 7 }
     let(:b) { 9 }
 
-    specify { expect(RogueMath.add(a, b)).to eq (a + b) }
+    specify { expect(RogueMath.add(a, b)).to eq a + b }
   end
 
   describe 'subtract' do
     let(:a) { 6 }
     let(:b) { 2 }
 
-    specify { expect(RogueMath.subtract(a, b)).to eq (a - b) }
+    specify { expect(RogueMath.subtract(a, b)).to eq a - b }
   end
 
   describe 'multiply' do

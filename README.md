@@ -12,6 +12,11 @@ This workshop is to get some hands on experience with creating pull requests on 
 
  Run `rspec spec`
 
+
+## Checking your contributions
+
+Run `rubocop spec`
+
 ## Contributing
 
   1. Fork it ( https://github.com/[my-github-username]/trueman/fork )
