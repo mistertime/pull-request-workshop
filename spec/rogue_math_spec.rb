@@ -28,4 +28,10 @@ describe RogueMath do
 
     specify { expect(RogueMath.divide(a, b)).to eq a / b }
   end
+
+  describe 'square' do
+    let(:a) { Random.rand }
+
+    specify { expect(RogueMath.square(a)).to eq a * a }
+  end
 end
